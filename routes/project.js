@@ -1,10 +1,5 @@
-
-/*
- * GET home page.
- */
-
 exports.view = function(req, res){
-  res.render('index', {
+ res.render('index', {
     'projects': [
       { 'name': 'Waiting in Line',
         'image': 'lorempixel.people.1.jpeg',
@@ -40,4 +35,3 @@ exports.view = function(req, res){
       }
     ]  
   });
-};
